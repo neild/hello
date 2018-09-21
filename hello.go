@@ -7,6 +7,7 @@ const (
 	Japanese
 )
 
+// Hello says hello.
 func Hello(lang Language) string {
 	switch lang {
 	case Japanese:
