@@ -1,5 +1,17 @@
 package hello
 
-func Hello() string {
-	return "Hello, world!"
+type Language int
+
+const (
+	English = Language(iota)
+	Japanese
+)
+
+func Hello(lang Language) string {
+	switch lang {
+	case Japanese:
+		return "Konnichiwa, sekai!"
+	default:
+		return "Hello, world!"
+	}
 }
