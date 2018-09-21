@@ -1,1 +1,1 @@
-module github.com/neild/hello
+module github.com/neild/hello/v2
